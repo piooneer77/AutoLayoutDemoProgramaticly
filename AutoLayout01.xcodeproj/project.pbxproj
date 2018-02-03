@@ -12,6 +12,8 @@
 		18158D3A2024C89200569CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18158D382024C89200569CC6 /* Main.storyboard */; };
 		18158D3C2024C89200569CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18158D3B2024C89200569CC6 /* Assets.xcassets */; };
 		18158D3F2024C89200569CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18158D3D2024C89200569CC6 /* LaunchScreen.storyboard */; };
+		18158D492025303800569CC6 /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18158D482025303800569CC6 /* SwipeController.swift */; };
+		18158D4B2026562900569CC6 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18158D4A2026562900569CC6 /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		18158D3B2024C89200569CC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18158D3E2024C89200569CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18158D402024C89200569CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18158D482025303800569CC6 /* SwipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeController.swift; sourceTree = "<group>"; };
+		18158D4A2026562900569CC6 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				18158D3B2024C89200569CC6 /* Assets.xcassets */,
 				18158D3D2024C89200569CC6 /* LaunchScreen.storyboard */,
 				18158D402024C89200569CC6 /* Info.plist */,
+				18158D482025303800569CC6 /* SwipeController.swift */,
+				18158D4A2026562900569CC6 /* PageCell.swift */,
 			);
 			path = AutoLayout01;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				18158D372024C89200569CC6 /* ViewController.swift in Sources */,
 				18158D352024C89200569CC6 /* AppDelegate.swift in Sources */,
+				18158D4B2026562900569CC6 /* PageCell.swift in Sources */,
+				18158D492025303800569CC6 /* SwipeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

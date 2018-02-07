@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		18158D352024C89200569CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18158D342024C89200569CC6 /* AppDelegate.swift */; };
-		18158D372024C89200569CC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18158D362024C89200569CC6 /* ViewController.swift */; };
 		18158D3A2024C89200569CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18158D382024C89200569CC6 /* Main.storyboard */; };
 		18158D3C2024C89200569CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18158D3B2024C89200569CC6 /* Assets.xcassets */; };
 		18158D3F2024C89200569CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18158D3D2024C89200569CC6 /* LaunchScreen.storyboard */; };
 		18158D492025303800569CC6 /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18158D482025303800569CC6 /* SwipeController.swift */; };
 		18158D4B2026562900569CC6 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18158D4A2026562900569CC6 /* PageCell.swift */; };
+		18158D4F2028FD3400569CC6 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18158D4E2028FD3400569CC6 /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18158D312024C89200569CC6 /* AutoLayout01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18158D342024C89200569CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18158D362024C89200569CC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18158D392024C89200569CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18158D3B2024C89200569CC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18158D3E2024C89200569CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18158D402024C89200569CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18158D482025303800569CC6 /* SwipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeController.swift; sourceTree = "<group>"; };
 		18158D4A2026562900569CC6 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		18158D4E2028FD3400569CC6 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +58,40 @@
 		18158D332024C89200569CC6 /* AutoLayout01 */ = {
 			isa = PBXGroup;
 			children = (
+				183FABC1202907A3000C068F /* Views */,
+				183FABC020290798000C068F /* Controllers */,
+				18158D4D2028FD1B00569CC6 /* Models */,
 				18158D342024C89200569CC6 /* AppDelegate.swift */,
-				18158D362024C89200569CC6 /* ViewController.swift */,
 				18158D382024C89200569CC6 /* Main.storyboard */,
 				18158D3B2024C89200569CC6 /* Assets.xcassets */,
 				18158D3D2024C89200569CC6 /* LaunchScreen.storyboard */,
 				18158D402024C89200569CC6 /* Info.plist */,
-				18158D482025303800569CC6 /* SwipeController.swift */,
-				18158D4A2026562900569CC6 /* PageCell.swift */,
 			);
 			path = AutoLayout01;
+			sourceTree = "<group>";
+		};
+		18158D4D2028FD1B00569CC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18158D4E2028FD3400569CC6 /* Page.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		183FABC020290798000C068F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18158D482025303800569CC6 /* SwipeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		183FABC1202907A3000C068F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18158D4A2026562900569CC6 /* PageCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,10 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18158D372024C89200569CC6 /* ViewController.swift in Sources */,
 				18158D352024C89200569CC6 /* AppDelegate.swift in Sources */,
 				18158D4B2026562900569CC6 /* PageCell.swift in Sources */,
 				18158D492025303800569CC6 /* SwipeController.swift in Sources */,
+				18158D4F2028FD3400569CC6 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +312,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-syntaxerror.AutoLayout01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.2;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,6 +329,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-syntaxerror.AutoLayout01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.2;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
